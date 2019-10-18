@@ -1,0 +1,8 @@
+$base-color: #5d4954;
+
+@mixin logoLink {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}

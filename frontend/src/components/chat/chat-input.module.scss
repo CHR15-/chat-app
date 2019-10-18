@@ -1,0 +1,17 @@
+.chatInput {
+  flex: 0 0 32px;
+  display: flex;
+
+  input {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0 10px;
+    font-size: 14px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

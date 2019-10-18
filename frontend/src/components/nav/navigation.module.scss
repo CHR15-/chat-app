@@ -1,0 +1,11 @@
+@import '../utils/variables.scss';
+
+.logo {
+  text-transform: UpperCase;
+  letter-spacing: 5px;
+  font-size: 22px;
+
+  a {
+    @include logoLink;
+  }
+}
